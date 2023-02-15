@@ -1,5 +1,5 @@
 @import url('https://fonts.googleapis.com/css?family=Exo:400,700');
-
+@import url('https://fonts.googleapis.com/css2?family=Lora:ital@1&display=swap');
 *{
     margin: 0px;
     padding: 0px;
@@ -141,7 +141,7 @@ body{
     align-items: center;
     justify-content: center;
     position: absolute;
-    bottom: 50px;
+    bottom: 300px;
     flex-direction: column;
     left: 50%;
     transform: translateX(-50%);
@@ -149,15 +149,254 @@ body{
 
 .form h2{
     text-align: center;
-    margin-left: 30px;
+    margin-left: 5px;
     color: #000000;
 
 }
 
 .form{
     width: calc(100% -20px);
-    max-width: 300px;
-    background: #fff
+    max-width: 310px;
+    font-family: 'Lora', serif;
+    background: #ffffffa4;
+    padding: 10px;
    
 }
 
+.btn button{
+    border-radius: 5px;
+    margin: 10px;
+    padding: 10px;
+    width: 150px;
+    border: none;
+}
+
+.btn a{
+    text-decoration: none;
+    font-size: 1.2em;
+    color: black;
+    font-family: 'Lora', serif;
+    color: rgb(48, 47, 48);
+}
+
+
+.btn button:hover{
+    background: rgba(2, 52, 218, 0.596);
+    padding: 10px;
+   cursor: pointer;
+}
+
+.indice{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 550px;
+    flex-direction: column;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+.indice ul li{
+    float:left;
+}
+.indice ul{
+margin: 0;
+padding: 0;
+list-style: none;
+border-radius: 3px;
+width: 600px;
+background:#fff;
+float: left;
+padding: 10px;
+}
+
+
+
+.indice ul a{
+    display: block;
+    padding:  0 2em;
+    line-height: 2em;
+    text-decoration: none;
+    color:#292626 ;
+    margin-right: 30px;
+    font-family: 'Lora', serif;
+}
+
+.indice a:hover{
+    background: #4e54c8;
+    border-radius: 2px;
+    color: #fff;
+}
+
+.tx{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 80px;
+    flex-direction: column;
+    left: 50%;
+    transform: translateX(-50%); 
+  
+}
+
+.tx h2{
+    text-align: center;
+    padding: 5px;
+    font-family: 'Lora', serif;
+
+}
+
+.formtx{
+    width: 700px;
+    background: #fff;
+    padding: 10px;
+    margin: 10px;
+    font-family: 'Lora', serif;
+
+
+}
+
+.vl{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 30px;
+    flex-direction: column;
+    left: 10%;
+    transform: translateX(-50%);
+}
+
+.vl a{
+    text-decoration: none;
+    color: white;
+    background: #8f94fb;
+    width: 70px;
+    text-align: center;
+    padding: 5px;
+}
+
+.vl a:hover{
+    background: #fff;
+    color:#4e54c8;
+    font-family: 'Lora', serif;
+}
+
+.ling-img{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 290px;
+    flex-direction: column;
+    left: 70%;
+    transform: translateX(-50%);
+}
+
+.ling-img img{
+   padding: 10px;
+}
+
+.segundimg{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 300px;
+    flex-direction: column;
+    left: 30%;
+    transform: translateX(-50%);
+}
+
+.lp{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 5px;
+    flex-direction: column;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+.dt{
+   width: 900px; 
+   background: #fff;
+   padding: 10px;
+   border-radius: 2px;
+   font-family: 'Lora', serif;
+}
+
+.lp h2{
+    color: #fff;
+}
+
+.dt p{
+color: #000000;
+}
+
+.lingcalc{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 250px;
+    flex-direction: column;
+    left: 50%;
+    transform: translateX(-50%);
+}
+
+
+.formcalc{
+    width: 700px;
+    background: #fff;
+    padding: 10px;
+    
+}
+
+.ipt input{
+ margin: 10px;
+ padding: 10px;
+ text-align: center;
+
+
+}
+  
+
+.ipt2 input{
+margin: 10px;
+padding: 10px;
+text-align: center;
+
+
+}
+
+
+.ip2{
+
+}
+
+.ipt3{
+ 
+}
+
+.ipt3 input{
+    margin: 10px;
+    padding: 10px;
+    text-align: center;
+    
+}
+
+.btncalc{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    position: absolute;
+    bottom: 150px;
+    flex-direction: column;
+    left: 50%;
+    transform: translateX(-50%); 
+}
